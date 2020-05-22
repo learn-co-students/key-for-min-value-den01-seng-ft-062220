@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
   min_value = 1000
   name_hash.each do |key_name, number|
-    if num > min_value
-      min_value = num
+    if min_value > number
+      min_value = number
   end
   # How do I return the key associated with this value?
 end
